@@ -1,0 +1,222 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container h1 {
+    line-height: 40px;
+    text-align: center;
+}
+
+.container img {
+    width: 300px;
+}
+
+.container .btn {
+    background-color: orange;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    width: 10%;
+    color: black;
+}
+
+.container1 .btn {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    width: 30%;
+}
+
+.container1 .btn a {
+    color: #111;
+}
+
+.container .btn:hover {
+    background-color: rgb(78, 62, 33);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: #eee;
+}
+
+.container1 .btn:hover {
+    background-color: rgb(78, 62, 33);
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+    color: #eee;
+}
+
+.container a {
+    text-decoration: none;
+    color: orange;
+}
+
+.container1 a {
+    text-decoration: none;
+    color: orange;
+}
+
+.container1 #small {
+    background-color: orange;
+    color: #eee;
+    font-size: 70px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.container1 #icon {
+    background-color: orange;
+    color: #eee;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.container1 input {
+    border: 1px solid rgb(224, 217, 217);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    padding: 12px;
+    width: 30%;
+}
+
+.container3 {
+    margin-top: 0px;
+}
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    overflow-x: hidden;
+    transition: 0.8s ease-in-out;
+    padding-top: 60px;
+}
+
+.sidepanel:hover {
+    background-color: rgb(173, 117, 11);
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #eee;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #7a5b5b;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: white;
+    color: orange;
+    transition: 0.54s ease-in-out;
+}
+
+.container3 .btn-tags button {
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+    width: 15%;
+    color: white;
+    background-color: orange;
+    border-radius: 12px;
+    border: 3px solid orange;
+}
+
+.container3 .btn-tags a {
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.contain-img {
+    display: flex;
+    margin-top: 10px;
+}
+
+.contain-img i {
+    background-color: orange;
+    color: #eee;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    bottom: 260px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.contain-img i:hover {
+    background-color: white;
+    color: orange;
+    transition: all 3s ease;
+}
+
+.contain-img .text {
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    color: #eee;
+}
+
+.contain-img .text h4 {
+    font-weight: 900;
+}
+
+.contain-img .price {
+    font-size: 12px;
+    font-weight: 200;
+    position: relative;
+    top: -22px;
+}
+
+.contain-img .price span {
+    font-size: 30px;
+    position: relative;
+    bottom: -6px;
+}
+
+.contain-img .con-img {
+    margin-left: 50px;
+}
+
+.contain-img .con-img img {
+    width: 290px;
+    height: 300px;
+    border-radius: 12px;
+}
